@@ -14,7 +14,6 @@ AKA unstage.
 使用“rm”和“git rm”可以删除文件，区别在于"git rm"是rm+git add命令，即提交了删除文件的状态到暂存区，这样一来就无法通过git checkout来恢复了，
 只能通过git reset HEAD来恢复到版本库的最新状态。而rm则可以通过git checkout来恢复。
 使用"git checkout -b branchname"可以创建并切换分支,相当于git brach branchname+git checkout branchname。
-在git下创建分支是相当快捷的。
-
+在git下创建分支是相当快捷的。解决分支之间的冲突就是把合并失败的文件手动编辑为我们希望的内容并提交。
 
 
