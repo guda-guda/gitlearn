@@ -13,3 +13,4 @@ Using "git reset HEAD "filename""  can cancel the contetnt to the work place tha
 AKA unstage.
 使用“rm”和“git rm”可以删除文件，区别在于"git rm"是rm+git add命令，即提交了删除文件的状态到暂存区，这样一来就无法通过git checkout来恢复了，
 只能通过git reset HEAD来恢复到版本库的最新状态。而rm则可以通过git checkout来恢复。
+使用"git checkout -b branchname"可以创建并切换分支,相当于git brach branchname+git checkout branchname。
