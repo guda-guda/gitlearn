@@ -19,5 +19,5 @@ Using "git reset HEAD "filename""  can cancel the contetnt to the work place tha
 在完成其他工作后，我们可以用"stash list"来查看当前保存的所有工作现场，再用"git stash pop"或者"git stash apply"来恢复，区别在于"git stash pop"会在还原
 工作现场之后将其从stash内容删除，下一次再有这种情况是需要再次使用“git stash”，而“git stash apply”并不会删除。
 在修复完bug并合并之后，如果我们想在当前工作分支修改同样的Bug,我们无需再操作一遍，只需要使用"git cherry-pick ID"，ID是修复bug那次操作的commit ID。
-
+使用"git rebase"完成变基操作。
 
